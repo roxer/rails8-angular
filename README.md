@@ -23,6 +23,7 @@ $ rails server
 * FIx N+1 query problem when fetching list of raticles with comments 
   Opionally add Rails counter cache to `Article` model to store number of comments
 * add pagination to fetch limited number of articles and comments
+* consider cache with Redis or other technology 
 * dockerize apps for deploment
 * setup full CI/CD
 
@@ -32,3 +33,4 @@ $ rails server
 * add pagination
 * add edit/delete/search/sort funcionality 
 * add error handing, error messages
+* optimize performance - cache selected data on the fronted (browser local storage)
