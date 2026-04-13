@@ -71,7 +71,7 @@ import { ArticleService } from '../../services/article.service';
               id="body"
               formControlName="body"
               rows="6"
-              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-shadow resize-y"
+              class="text-black w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-shadow resize-y"
               [class.border-red-500]="isFieldInvalid('body')"
               placeholder="Write your article content here..."
             ></textarea>
