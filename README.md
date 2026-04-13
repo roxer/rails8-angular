@@ -29,3 +29,4 @@ $ rails server
 * add authentication
 * add pagination
 * add edit/delete/search/sort funcionality 
+* add error handing, error messages
