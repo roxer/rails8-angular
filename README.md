@@ -20,6 +20,12 @@ $ rails server
 * update `.gitinore` to exclude Angular artefacts from build process
 * add full text coverage for Rails and Angular
 * consider indexes for DB schema
+* add pagination to fetch limited number of articles and comments
 * dockerize apps for deploment
 * setup full CI/CD
 
+## Next steps (Angular)
+
+* add authentication
+* add pagination
+* add edit/delete/search/sort funcionality 
