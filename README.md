@@ -20,6 +20,8 @@ $ rails server
 * update `.gitinore` to exclude Angular artefacts from build process
 * add full text coverage for Rails and Angular
 * consider indexes for DB schema
+* FIx N+1 query problem when fetching list of raticles with comments 
+  Opionally add Rails counter cache to `Article` model to store number of comments
 * add pagination to fetch limited number of articles and comments
 * dockerize apps for deploment
 * setup full CI/CD
